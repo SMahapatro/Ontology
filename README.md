@@ -1,4 +1,5 @@
 # Fabric Ontology
 
-## Creating Lakehouse
-Ingesting retail sales, marketing, operational, digital experience data into Microsoft Fabric Lakehouse
+## Fabric Lakehouse
+Fabric Lakehouse provides the governed data layer from which the Semantic Model is created, enabling Ontology IQ to understand business entities, metrics, and relationships for intelligent AI-driven analytics. If you dont have 
+![](media/cloud-shell.1.png)
