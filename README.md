@@ -22,4 +22,12 @@ Below are asic objects considered for the Retail Ontology:
 ## Creating Semantic Model using Lakehouse
 *	Build a business-friendly semantic layer for retail analytics.
 *	Creating domain and business specific calculated measures and KPIs
-*	Establishing relationship among objects. 
+*	Establishing relationship among objects.
+  ![](Image/SemanticModel.png)
+
+### Creating RTI in Eventhouse
+* Eventhouse:
+** Retail_Eventhouse created to store streaming data coming from EventHub/Kafka
+** Database created as default while creating eventhouse. 
+
+
