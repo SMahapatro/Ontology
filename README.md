@@ -4,7 +4,7 @@
 Fabric Lakehouse provides the governed data layer from which the Semantic Model is created, enabling Ontology IQ to understand business entities, metrics, and relationships for intelligent AI-driven analytics. If you dont have 
 ![](Image/LakehouseMain.png)
 
-Below are objects considered for the Retail Ontology:
+Below are asic objects considered for the Retail Ontology:
 |Schema            |Table                  |Description                  |
 |------------------|-----------------------|-----------------------------|
 |Marketing            |Campaign                  |Campaign related data                  |
@@ -17,4 +17,9 @@ Below are objects considered for the Retail Ontology:
 |DigitalExperience            |clickstream                  |Customer visited information                  |
 |DigitalExperience            |feedbacks                  |Customer feedback on sales                  |
 |DigitalExperience            |webtraffic                  |Customer footprint on purchase                  |
-|------------------|-----------------------|-----------------------------|
+
+
+## Creating Semantic Model using Lakehouse
+•	Build a business-friendly semantic layer for retail analytics.
+•	Creating domain and business specific calculated measures and KPIs
+•	Establishing relationship among objects. 
