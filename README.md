@@ -25,7 +25,7 @@ Below are asic objects considered for the Retail Ontology:
 *	Establishing relationship among objects.
   ![](Image/SemanticModel.png)
 
-### Creating RTI in Eventhouse
+## Creating RTI in Eventhouse
 * Eventhouse: 
   Eventhouse is the real-time analytics engine that stores streaming events and enables fast KQL-based queries for live dashboards and operational intelligence.
   + Retail_Eventhouse created to store streaming data coming from EventHub/Kafka
@@ -60,5 +60,12 @@ Ontology IQ leverages the Semantic Model to define business concepts and relatio
 * Both static and RTI data binding can be done if design needed.
   ![](Image/BindStaticRTI.png)
 * Entity view with relational graph and its values.
-  ![](Image/OntologyGraphViwe.png)
+  ![](Image/OntologyGraphView.png)
+
+## Creating Data Agent using Ontology IQ
+Powered by Ontology IQ, the Data Agent translates user questions into data queries, allowing business users to interact with data conversationally and generate insights without needing technical expertise.
+*	Data agent will help to integrate with Foundry IQ as knowledge source to provide a optimized RAG Agent
+*	Proper instruction should be setup for data agent where agent can understand and follow step by step instruction to answer business questions.
+  ![](Image/DataAgentWithInstruction.png)
+
 
