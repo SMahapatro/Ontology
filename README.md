@@ -27,7 +27,7 @@ Below are asic objects considered for the Retail Ontology:
 
 ### Creating RTI in Eventhouse
 * Eventhouse:
-** Retail_Eventhouse created to store streaming data coming from EventHub/Kafka
-** Database created as default while creating eventhouse. 
++ Retail_Eventhouse created to store streaming data coming from EventHub/Kafka
++ Database created as default while creating eventhouse. 
 
 
