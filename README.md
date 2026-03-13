@@ -20,6 +20,6 @@ Below are asic objects considered for the Retail Ontology:
 
 
 ## Creating Semantic Model using Lakehouse
-•	Build a business-friendly semantic layer for retail analytics.
-•	Creating domain and business specific calculated measures and KPIs
-•	Establishing relationship among objects. 
+*	Build a business-friendly semantic layer for retail analytics.
+*	Creating domain and business specific calculated measures and KPIs
+*	Establishing relationship among objects. 
