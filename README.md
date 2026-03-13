@@ -26,8 +26,19 @@ Below are asic objects considered for the Retail Ontology:
   ![](Image/SemanticModel.png)
 
 ### Creating RTI in Eventhouse
-* Eventhouse:
+* Eventhouse: 
+  Eventhouse is the real-time analytics engine that stores streaming events and enables fast KQL-based queries for live dashboards and operational intelligence.
   + Retail_Eventhouse created to store streaming data coming from EventHub/Kafka
-  + Database created as default while creating eventhouse. 
+  + Database created as default while creating eventhouse.
+    ![](Image/EventhouseDB.png)
+  + Table creation in Eventhouse
+    ![](Image/EventhouseTable.png)
+  + As a best practive, following points should be considered while designing table
+    -	Minimal columns for streaming tables
+    -	Datetime datatype for event time
+    -	Avoid excessive string columns
+    -	Enable retention policies
+      ![](Image/EventhouseTableDetails.png)
+
 
 
