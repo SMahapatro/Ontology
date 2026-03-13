@@ -40,17 +40,25 @@ Below are asic objects considered for the Retail Ontology:
     -	Enable retention policies
       ![](Image/EventhouseTableDetails.png)
 
-•	Eventstream: Eventstream ingests and processes real-time events from multiple sources and routes them to Eventhouse, where the data is stored and analyzed using KQL to power real-time dashboards and operational insights. Here we can use the source system as Custom Endpoint, Eventhu, AMQP, and Kafka.
+*	Eventstream: Eventstream ingests and processes real-time events from multiple sources and routes them to Eventhouse, where the data is stored and analyzed using KQL to power real-time dashboards and operational insights. Here we can use the source system as Custom Endpoint, Eventhu, AMQP, and Kafka.
 ![](Image/EventStream.png)
   + Eventstream Configuration:
     -	In this case, we used custom endpoint where scheduled notebook will call EventHubProducerClient (Producer) to publish the data 
     -	Eventstream will read the stream and process it and store to the target location as Eventhouse (Given Eventhouse table)
     -	Below notebooks are used to process the stream data
-      |Spark Notebook            |Description                  |
+
+     	|Spark Notebook            |Description                  |
       |--------------------------|-----------------------------|
       |Generate Realtime Foot Traffic Data            |Foot traffic synthesize data to be processed as streaming |
       |Generate Realtime Inventory Data            |Realtime inventory synthesize data                 |
 
     
-
+## Creating Ontology IQ using Semantic Model
+Ontology IQ leverages the Semantic Model to define business concepts and relationships, enabling AI-driven natural language analytics.
+* Pointing to the above relational semantic model as data source.
+  ![](Image/OntologyMain.png)
+* Both static and RTI data binding can be done if design needed.
+  ![](Image/BindStaticRTI.png)
+* Entity view with relational graph and its values.
+  ![](Image/OntologyGraphViwe.png)
 
